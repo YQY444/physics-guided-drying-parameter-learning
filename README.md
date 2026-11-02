@@ -32,7 +32,6 @@ The prepared experimental CSV is included at [`data/drying_curves.csv`](data/dry
 ## Structure
 
 - `data/drying_curves.csv`: 14,665 processed experimental observations.
-- `data/drying_curves.csv`: 14,665 processed experimental observations.
 - `src/run_project.m`: parameter estimation, nested grouped validation, metrics and figures.
 - `examples/`: synthetic analytical illustration.
 - `figures/workflow.drawio` and `.svg`: editable research workflow (Times New Roman).
