@@ -1,0 +1,9 @@
+data/*.csv
+!data/schema.csv
+*.mat
+*.asv
+*.log
+results/*
+!results/summary.json
+__pycache__/
+.DS_Store
