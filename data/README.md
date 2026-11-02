@@ -1,6 +1,6 @@
 # Experimental dataset
 
-`drying_curves.csv` contains the processed experimental data used by `run_study.m`: **14,665 observations, 79 experimental runs and 27 operating conditions**. It is included in the repository and can be downloaded directly. `schema.csv` is a header-only English column dictionary; use `drying_curves.csv` for calculations.
+`drying_curves.csv` contains the processed experimental data used by `run_study.m`: **14,665 observations, 79 experimental runs and 27 operating conditions**. It is included in the repository and can be downloaded directly. 
 
 The dataset is copied without numerical changes from the study's prepared master table (`01_干燥曲线主表.csv`). Its UTF-8 BOM Chinese headers are skipped by MATLAB; numeric column order matches `schema.csv`.
 
