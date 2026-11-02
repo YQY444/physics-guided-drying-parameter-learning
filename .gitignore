@@ -1,5 +1,7 @@
 data/*.csv
 !data/schema.csv
+!data/drying_curves.csv
+!data/drying_curves.csv
 *.mat
 *.asv
 *.log

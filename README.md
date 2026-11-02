@@ -24,13 +24,15 @@ MATLAB R2023b (base MATLAB; analytical gradients and Adam are implemented in the
 
 ```matlab
 run('examples/demo_newton_lewis.m') % no dataset required
-run_study                        % requires authorized experimental CSV
+run_study                        % uses included data/drying_curves.csv
 ```
 
-Add the authorized CSV described in `data/README.md` before running the experimental workflow. The code creates result and figure folders automatically. No partner measurements are included in this repository.
+The prepared experimental CSV is included at [`data/drying_curves.csv`](data/drying_curves.csv). Clone or download this repository and run `run_study` to reproduce the experimental workflow. The code creates result and figure folders automatically. See `data/README.md` for provenance, column definitions and exclusions.
 
 ## Structure
 
+- `data/drying_curves.csv`: 14,665 processed experimental observations.
+- `data/drying_curves.csv`: 14,665 processed experimental observations.
 - `src/run_project.m`: parameter estimation, nested grouped validation, metrics and figures.
 - `examples/`: synthetic analytical illustration.
 - `figures/workflow.drawio` and `.svg`: editable research workflow (Times New Roman).
